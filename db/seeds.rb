@@ -13,10 +13,8 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/rails5 for more book information.
 #---
-# encoding: utf-8
 Product.delete_all
-Product.create!(title: 'Rails, Angular, Postgres, and Bootstrap',
-                description:
+Product.create!(title: 'Rails, Angular, Postgres, and Bootstrap', description:
                 %{<p>
       <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
       As a Rails developer, you care about user experience and performance,
@@ -48,7 +46,7 @@ Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
 Product.create!(title: 'Ruby Performance Optimization',
                 description:
                 %{<p>
-      <em>Why Ruby Is Slow, and How to Fix It</em> 
+      <em>Why Ruby Is Slow, and How to Fix It</em>
       You don’t have to accept slow Ruby or Rails performance. In this
       comprehensive guide to Ruby optimization, you’ll learn how to write
       faster Ruby code—but that’s just the beginning. See exactly what makes
